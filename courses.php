@@ -6,9 +6,9 @@
   <body>
     <h1>Course Booking</h1>
     <?php
-        $db_hostname = "studdb.csc.liv.ac.uk"; $db_database = "sgdsing2";
-        $db_username = "sgdsing2";
-        $db_password = "612021"; $db_charset = "utf8mb4";
+        $db_hostname = ""; $db_database = "";
+        $db_username = "";
+        $db_password = ""; $db_charset = "utf8mb4";
         $dsn = "mysql:host=$db_hostname;dbname=$db_database;charset=$db_charset";
         $opt = array(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, PDO::ATTR_EMULATE_PREPARES => false
